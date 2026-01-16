@@ -17,3 +17,7 @@ app.get("/", (req, res) => {
     res.json({ message: "Movie Finder API is running!" });
 });
 
+// START SERVER //
+app.listen(PORT, () => {
+    console.log(`Server is runnirg on http://localhost:${PORT}`);
+});
