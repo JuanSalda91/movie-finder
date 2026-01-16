@@ -11,3 +11,6 @@ router.get("/search", searchMovies);
 
 // GET /api/movies/:id
 router.get("/movies/:id", getMovieDetails);
+
+// EXPORT ROUTER //
+module.exports = router;
